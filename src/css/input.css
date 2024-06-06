@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .question{
+        @apply flex justify-between items-center transition-all duration-300 cursor-pointer font-semibold text-Dark-purple hover:text-purple-500; 
+    }
+
+    .answer{
+        @apply overflow-hidden h-0;
+    }
+}
